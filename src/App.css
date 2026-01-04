@@ -1,0 +1,15 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+
+}
+body {
+ /* background: linear-gradient(135deg, #151730 0%, #092D5B 100%);  */
+  background-color: #F2F2F2;
+  font-family: 'Arial', sans-serif;
+  color: #002855;
+  margin: 0;
+  padding: 0;
+}

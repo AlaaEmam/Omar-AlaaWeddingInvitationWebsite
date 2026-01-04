@@ -1,0 +1,144 @@
+.WeddingTimeline{
+  padding: 0.5rem 0 5rem 0;
+  text-align: center;
+}
+.WeddingTimeline h1{
+  font-size: 4rem;
+  font-family: 'Ephesis', cursive;
+  font-weight: 600;
+}
+
+
+.timeline {
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Arvo', serif;
+}
+
+.image-container {
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.image-container > img {
+  width: 100%;
+  height: auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #092D5B;
+  top: -20px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.containerr {
+  position: relative;
+  width: 50%;
+}
+
+.containerr::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #092D5B;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  right: -9px;
+}
+
+.left {
+  left: 0;
+  text-align: right;
+
+}
+
+.right {
+  left: 50%;
+}
+
+.right::after {
+  left: -10px;
+}
+
+.content-right {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 3rem;
+}
+.content-left{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 3rem;
+}
+.text-left {
+text-align: right;
+}
+.text-right {
+text-align: left;
+}
+.text-left h4, .text-left p, .text-right h4, .text-right p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .WeddingTimeline h1{
+  font-size: 2rem;
+}
+
+.timeline {
+    font-size: 0.8rem;
+  }
+  .content-right {
+    margin-left: 1rem;
+  }
+  .content-left{
+    margin-right: 1rem;
+  }
+  .image-container {
+    margin: 0;
+
+  }
+  .image-container > img {
+    width: 75%;
+}
+
+.containerr::after {
+    width: 15px;
+    height: 15px;
+    right: -7px;
+}
+.right::after {
+    left: -8px;
+}
+  /* .timeline::after {
+    left: 31px;
+  }
+    
+
+  .containerr {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .left::after,
+  .right::after {
+    left: 15px;
+  }
+
+  .right {
+    left: 0;
+  } */
+}

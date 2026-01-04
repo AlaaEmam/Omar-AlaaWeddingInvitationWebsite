@@ -1,0 +1,147 @@
+
+
+.countdown-container {
+  width: initial;
+  text-align: center;
+  margin: 3rem auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #ceab80;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Arvo', serif;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+.countdown-container > img {
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+
+.countdown-date {
+  font-size: 6rem;
+  font-family: 'Ephesis', serif;
+  font-weight: 600;
+  text-transform: none;
+  margin: 0;
+}
+
+.day {
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+}
+
+.countdown-part {
+  margin: 4.5rem 0;
+}
+
+.timer-text {
+  font-size: 0.6rem;
+  margin-top: 10px;
+  letter-spacing: 0.8rem;
+}
+
+.countdown-timer {
+  font-size: 6rem;
+  margin-top: 5px;
+}
+
+
+
+@media (max-width: 1200px) {
+      .countdown-part {
+  margin: 2rem 0;
+}
+  .countdown-date {
+    font-size: 5rem;
+  }
+
+  .countdown-timer {
+    font-size: 5rem;
+  }
+
+  .day {
+    font-size: 1rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .timer-text {
+    font-size: 0.5rem;
+    letter-spacing: 0.6rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .countdown-date {
+    font-size: 3.5rem;
+  }
+
+  .countdown-timer {
+    font-size: 4rem; 
+  }
+
+  .day {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+    .countdown-part {
+  margin: 1.4rem 0;
+}
+
+  .countdown-date {
+    font-size: 3rem; 
+  }
+
+  .countdown-timer {
+    font-size: 3rem; 
+  }
+
+  .day {
+    font-size: 0.7rem; 
+     letter-spacing: 0.2rem;
+  }
+
+  .timer-text {
+    font-size: 0.4rem; 
+     letter-spacing: 0.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+    .countdown-part {
+    margin: 1rem 0;
+  }
+
+  .countdown-date {
+    font-size: 2rem; 
+  }
+
+  .countdown-timer {
+    font-size: 1.6rem; 
+  }
+
+  .day {
+    font-size: 0.3rem; 
+    letter-spacing: 0.2rem;
+  }
+
+  .timer-text {
+    font-size: 0.3rem; 
+    letter-spacing: 0.2rem;
+
+  }
+}
