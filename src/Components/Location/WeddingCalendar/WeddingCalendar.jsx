@@ -14,13 +14,13 @@ const WeddingCalendar = () => {
 
       <div style={styles.overlay}>
         <AddToCalendarButton
-          name="Omar & Alaa Wedding Day ! 🥂"
+          name="Omar & Alaa Wedding ! 🥂"
           options={['Google']}
-          location="The Grand Venue, 123 Wedding Lane, City, State"
+          location="https://maps.app.goo.gl/RdRiQRdxYC3ZeXYf6"
           startDate="2026-01-28"
           startTime="00:00"
           endTime="23:30"
-          description="We are so excited to celebrate with you! Please arrive 15 minutes early for the ceremony."
+          description="We are so happy to have you with us! Please arrive 30 minutes before the start time so we can begin the festivities together."
           timeZone="currentBrowser"
           label="Add to Calendar"
           hideText

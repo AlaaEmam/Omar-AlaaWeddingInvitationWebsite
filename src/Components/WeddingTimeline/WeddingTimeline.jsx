@@ -9,13 +9,13 @@ import GroupPhotos from '../../assets/WeddingTimeline/photo-time.svg';
 import EndingParty from '../../assets/WeddingTimeline/ending-party.svg';
 
 const events = [
-  { time: '6:00 PM', title: 'Reception Starts', image: GateOpen },
-  { time: '7:00 PM', title: 'Katb El Ketat', image: KatbElKetat },
-  { time: '8:00 PM', title: 'Evening Party', image: EveningParty },
+  { time: '6:00 PM', title: 'Doors Open', image: GateOpen },
+  { time: '7:00 PM', title: 'Katb El Ketab', image: KatbElKetat },
+  { time: '8:00 PM', title: 'Let the Fun Begin', image: EveningParty },
   { time: '9:00 PM', title: 'Dinner Time', image: DinnerTime },
   { time: '10:00 PM', title: 'Dabka Show', image: DabkaShow },
-  { time: '11:30 PM', title: 'Group Photos Time', image: GroupPhotos },
-  { time: '12:00 AM', title: 'Ending Party', image: EndingParty },
+  { time: '11:30 PM', title: 'Family & Friends Portraits', image: GroupPhotos },
+  { time: '12:00 AM', title: 'The Grand Finale', image: EndingParty },
 ];
 
 const WeddingTimeline = () => {

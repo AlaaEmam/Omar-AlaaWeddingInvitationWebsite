@@ -2,7 +2,6 @@ import React from 'react';
 import './Location.css';
 import OroPlazaImage from '../../assets/oro-plaza.svg'; 
 import QRCodeImage from '../../assets/qr-code.svg';
-import Calendar from '../../assets/calender.svg';
 import WeddingCalendar from './WeddingCalendar/WeddingCalendar';
 
 export default function Location() {
@@ -35,12 +34,11 @@ export default function Location() {
          
           <p className='venue-name'>Venue: Royal Orchid </p>
           <p>
-            ORO Plaza Hotel, First Settlement, along Al-Thawra Street, next to Mubarak Camp,<br />
-            after Al-Rehab Bridge 1, First Settlement.
+            ORO Plaza Hotel, First Settlement, along Al-Thawra Street,<br /> next to Mubarak Camp,
+            after Al-Rehab Bridge 1.
           </p>
            <div className='wedding-calender'>
-            <p>Save The Date in Your Calender </p>
-              {/* <img src={Calendar} alt="" /> */}
+            <p>Click Here to Save The Date in Your Calender </p>
               <WeddingCalendar />
           </div>
         </div>

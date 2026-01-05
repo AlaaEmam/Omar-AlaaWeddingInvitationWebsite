@@ -12,8 +12,8 @@ export default function Information() {
           <div className="info-column">
             <section className="info-block">
               <h3>PARKING</h3>
-              <p>WE HAVE 80 FREE PARKING SLOTS ON SITE</p>
-              <p>COME THE EARLIEST TO GET YOUR FREE PARKING </p>
+              <p>On-site parking is available for 30 LE.</p>
+              <p> Arrive early to ensure a smooth start to the celebration!</p>
             </section>
 
             <hr className="divider" />
@@ -21,24 +21,23 @@ export default function Information() {
             <section className="info-block">
               <h3>CONTACT</h3>
               <p>IF YOU NEED HELP PLEASE CONTACT</p>
-              <div className="contact-placeholder">[Phone Number / Email]</div>
+              <div className="contact-placeholder">[01114435366 / 01110711400 ]</div>
             </section>
 
             <hr className="divider" />
 
             <section className="info-block">
               <h3>DRESS CODE</h3>
-              <p><strong>BLACK TIE ATTIRE</strong></p>
-              <p>(SUITS OR SMART CASUAL FOR MEN - DRESSES & SUITS FOR WOMEN)</p>
-              <p>JEANS & CASUAL ATTIRE IS NOT ALLOWED</p>
-              <p>PLEASE REFRAIN FROM WEARING WHITE & SHADES</p>
+              <p>Come as you are! We want you to be comfortable, </p>
+              <p>so feel free to wear whatever makes you feel your best.</p>
+             
             </section>
           </div>
 
           {/* Right Section: Greeting */}
           <div className="greeting-column">
             <h1>THANK YOU FOR SHARING OUR BIG DAY WITH US!</h1>
-            <h2>We can't wait to meet you!</h2>
+            <h2>WE CAN'T WAIT TO CELEBRATE WITH YOU!</h2>
           </div>
     </div>
 </div>
