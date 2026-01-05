@@ -18,7 +18,7 @@ export default function Invitation() {
             <div className="verse-text">
               وَمِنْ آَيَاتِهِ أَنْ خَلَقَ لَكُمْ مِنْ أَنْفُسِكُمْ أَزْوَاجًا لِتَسْكُنُوا إِلَيْهَا
               <br />
-              وَجَعَلَ بَيْنَكُمْ مَوَدَّةً وَرَحْمَةً إِنَّ فِي ذَلِكَ لَآَيَاتٍ لِقَوْمٍ يَتَفَكُرُون
+              وَجَعَلَ بَيْنَكُمْ مَوَدَّةً وَرَحْمَةً إِنَّ فِي ذَلِكَ لَآَيَاتٍ لِقَوْمٍ  يَتَفَكَّرُونَ
             </div>
             <div className="love-note">With much love and excitement,</div>
             <div className="wedding-invite">we invite you to celebrate our wedding.</div>
