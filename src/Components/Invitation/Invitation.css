@@ -98,6 +98,11 @@
 
 
 @media (max-width: 1024px) {
+  .centered-text {
+      margin: auto;
+      letter-spacing: 0.1rem;
+      width: max-content;
+    }
 
   .arabic-text {
     font-size: 3rem; 
@@ -120,6 +125,12 @@
 }
 
 @media (max-width: 768px) {
+    .centered-text {
+      margin: auto;
+      letter-spacing: 0.1rem;
+      width: max-content;
+    }
+
   .arabic-text,
   .verse-text {
     font-size: 1.5rem; 
@@ -131,6 +142,11 @@
 
 @media (max-width: 600px) {
  
+  .centered-text {
+      margin: auto;
+      letter-spacing: 0.1rem;
+      width: max-content;
+    }
 
   .arabic-text{
     font-size: 1rem;
@@ -148,6 +164,33 @@
 
   .names {
     font-size: 2.8rem;
+    margin: 0;
+  }
+}
+@media (max-width: 400px) {
+ 
+  .centered-text {
+      margin: auto;
+      letter-spacing: none ;
+      width: max-content;
+    }
+
+  .arabic-text{
+    font-size: 0.9rem;
+  }
+  .verse-text{
+    font-size: 0.7rem;
+  }
+  .love-note,
+  .wedding-invite,
+  .date-text,
+  .save-the-date,
+  .venue {
+    font-size: 0.4rem; 
+  }
+
+  .names {
+    font-size: 2.6rem;
     margin: 0;
   }
 }
