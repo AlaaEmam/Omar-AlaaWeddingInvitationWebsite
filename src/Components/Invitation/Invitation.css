@@ -1,24 +1,25 @@
 
-.background-container {
-  background-size: cover;
-  background-position: center;
+.invitation-container {
   background: linear-gradient(135deg, #151730 0%, #092D5B 100%);
   width: 100%;
-  height: 100vh ;
+  height: 100dvh;
+} 
+ .background-invitation{
+  position: relative;
+  width: 95%;
+  max-width: 500px;
+  height: 100dvh;
+  margin: auto;
+  padding: 1rem 0;
 }
-.background-image-container{
-    margin: auto;
-    width: 90%;
-    position: relative;
-    height: inherit;
-}
-.background-image-container img {
-  width: 90%;
+.background-invitation img {
+  width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 
-.centered-text {
-  width: max-content;
+.main-text {
+  width: 90%;
   position: absolute;
   top: 50%; 
   left: 50%; 
@@ -28,6 +29,7 @@
   text-align: center;
   text-transform: uppercase;
   padding: 0 20px; 
+  z-index: 2;
 }
 
 .top {
@@ -61,7 +63,7 @@
 }
 
 .names {
-  font-size: 6rem; 
+  font-size: 4rem; 
   font-family: 'Ephesis';
   font-weight: 600;
   text-transform: none; 
@@ -71,7 +73,7 @@
 
 @media (max-width: 1200px) {
 
-  .centered-text {
+  .main-text {
     margin: auto;
     letter-spacing: 0.1rem;
     width: max-content;
@@ -98,34 +100,34 @@
 
 
 @media (max-width: 1024px) {
-  .centered-text {
+  .main-text{
       margin: auto;
       letter-spacing: 0.1rem;
       width: max-content;
     }
 
   .arabic-text {
-    font-size: 3rem; 
+    font-size: 1.8rem; 
   }
 
   .verse-text {
-    font-size: 1.5rem; 
+    font-size: 1.3rem; 
   }
   .love-note,
   .wedding-invite,
   .date-text,
   .save-the-date,
   .venue {
-    font-size: 1rem; 
+    font-size: 0.6rem; 
     margin-bottom: 0.5rem;
   }
    .names {
-    font-size: 6rem; 
+    font-size: 4rem; 
   }
 }
 
 @media (max-width: 768px) {
-    .centered-text {
+    .main-text {
       margin: auto;
       letter-spacing: 0.1rem;
       width: max-content;
@@ -142,7 +144,7 @@
 
 @media (max-width: 600px) {
  
-  .centered-text {
+  .main-text{
       margin: auto;
       letter-spacing: 0.1rem;
       width: max-content;
@@ -169,7 +171,7 @@
 }
 @media (max-width: 400px) {
  
-  .centered-text {
+  .main-text{
       margin: auto;
       letter-spacing: none ;
       width: max-content;

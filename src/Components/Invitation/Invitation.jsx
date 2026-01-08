@@ -7,12 +7,11 @@ import line from '../../assets/line.svg';
 
 export default function Invitation() {
   return (
-    <div className="container">
-      <div className="background-container">
-        <div className="background-image-container">
+    <>
+           <div className="invitation-container">
+        <div className="background-invitation">
             <img src={Background} alt="Background"  />
-        </div>
-     <div className="centered-text">
+        <div className="main-text">
           <div className="top">
             <div className="arabic-text">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</div>
             <div className="verse-text">
@@ -31,7 +30,11 @@ export default function Invitation() {
           <div className="save-the-date">SAVE THE DATE</div>
           <div className="venue">ORO PLAZA HOTEL | First Settlement</div>
         </div>
+        </div>
+    
       </div>
-    </div>
+    
+    </>
+
   );
 }
