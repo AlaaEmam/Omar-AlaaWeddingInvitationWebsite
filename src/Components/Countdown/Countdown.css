@@ -23,13 +23,13 @@
 }
 
 .countdown-container > img {
-  width: 95%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
 
 .countdown-date {
-  font-size: 6rem;
+  font-size: 5rem;
   font-family: 'Ephesis', serif;
   font-weight: 600;
   text-transform: none;
@@ -48,13 +48,13 @@
 }
 
 .timer-text {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   margin-top: 10px;
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.4rem;
 }
 
 .countdown-timer {
-  font-size: 6rem;
+  font-size: 5rem;
   margin-top: 5px;
 }
 
@@ -124,24 +124,28 @@
 @media (max-width: 576px) {
     .countdown-part {
     margin: 1rem 0;
+    letter-spacing: normal;
   }
 
   .countdown-date {
-    font-size: 2rem; 
+    font-size: 1.1rem; 
+    letter-spacing: 0.2rem;
   }
 
   .countdown-timer {
-    font-size: 1.6rem; 
+    font-size: 1.8rem; 
   }
 
   .day {
-    font-size: 0.3rem; 
-    letter-spacing: 0.2rem;
+    font-size: 0.5rem; 
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    padding: 0.2rem 0;
   }
 
   .timer-text {
-    font-size: 0.3rem; 
-    letter-spacing: 0.2rem;
+    font-size: 0.4rem; 
+    letter-spacing: 0.1rem;
 
   }
 }
